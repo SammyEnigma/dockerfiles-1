@@ -1,7 +1,6 @@
-version: "3.8"
 services:
   gogs:
-    image: gogs/gogs:0.13
+    image: gogs/gogs:0.14
     ports:
       - "2222:22"
       - "3000:3000"
